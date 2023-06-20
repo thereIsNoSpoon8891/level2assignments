@@ -1,0 +1,67 @@
+{
+    "appetizers": [
+        {
+            "name": "cheese sticks",
+            "ingredients": ["bread crumbs", "mozzorella cheese", "canola oil"],
+            "description": "fried cheese encased in bread crumbs"
+            }, 
+            {
+                "name": "chicken wings",
+                "ingredients": ["chicken", "breading", "herbs and spices"],
+                "description": "fried chicken wings"
+                }, 
+                {
+                    "name": "queso dip",
+                    "ingredients": ["cheddar cheese", "seasonings", "mozzorella cheese"],
+                    "description": "mixed melted cheeses for dipping!"
+                    }
+                ],
+                "cold sandwiches": [
+                    {
+                        "name": "turkey sandwich",
+                        "ingredients": ["sliced turkey", "italian bread", "swiss cheese"],
+                        "description": "classic turkey sandwich"
+                        }, 
+                        {
+                            "name": "ham sandwich",
+                            "ingredients": ["sliced ham", "white bread", "american cheese"],
+                            "description": "the classic american ham sammich"
+                            }
+                        ],
+                        "hot sandwiches": [
+                            {
+                                "name": "meatball sub",
+                                "ingredients": ["italian meat balls", "marinara sauce", "italian bread"],
+                                "description": "a hot meatball sandwhich"
+                                }, 
+                                {
+                                    "name": "philly cheese-steak",
+                                    "ingredients": ["thin cut steak", "melted provolone", "thick cut bread"],
+                                    "description": "authentic philly cheesesteak sammich"
+                                    }
+                                ],
+                                "desserts": [
+                                {
+                                    "name": "cheese cake",
+                                    "ingredients": ["cheese", "cake"],
+                                    "description": "delicious new york style cheesecake"
+                                }, 
+                                {
+                                "name": "spamoni ice cream",
+                                "ingredients": ["vanilla,", "pistachio", "chocolate"],
+                                "description": " a scoop of delicious spamoni ice cream"
+                                }
+                                ],
+                                        "drinks": [
+                                            {
+                                            "name": "iced coffee",
+                                            "ingredients": ["coffe, ice"],
+                                            "description": "cold coffee for the summer months"
+                                            }, 
+                                            {
+                                                "name": "hot coffee",
+                                                "ingredients": ["coffee grounds", "hot water"],
+                                                "description": "hot coffee for the cold season"
+                                                }
+                                            ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel Form</title>
+</head>
+<body>
+    <form name="ticket">
+        <input placeholder="First Name" type="text" name="firstName" />
+        <input placeholder="Last Name" type="text" name="lastName" />
+        <input placeholder="Age" type="number" name="age" />
+        <br>
+        Gender:
+        Male: <input value="Male" type="radio" name="gender"/>
+        Female: <input value="Female" type="radio" name="gender"/>
+        <br> 
+        Destination:
+        <select id="location" name="location">
+            <option value="Canada">Canada</option>
+            <option value="Europe">Europe</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <br>
+        Dining preferences:
+        Vegan: <input type="checkbox" value="Vegan" name="foodType"/>
+        Kosher: <input type="checkbox" value="Kosher" name="foodType"/>
+        SeeFood:<input type="checkbox" value="SeeFood" name="foodType"/>
+        <br>
+        <button>SEND</button>
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>

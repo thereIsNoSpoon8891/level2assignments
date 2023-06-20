@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: grey;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+#addition {
+    background-color: rgb(237, 7, 7);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#subtraction {
+    background-color: rgb(245, 245, 245);
+    margin: 20px;
+    border-radius: 20px;
+    
+    
+
+}
+
+#multiplication {
+    background-color: rgb(29, 38, 215);
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+h1 {
+    background-color: black;
+    color: rgb(222, 231, 238);
+    border-radius: 20px;
+   
+   
+}
+button {
+    border-radius: 20px;
+    color: rgb(0, 55, 182);
+    background-color: rgba(255, 255, 255, 0.83);
+}
+
+input {
+    border-radius: 20px;
+}
